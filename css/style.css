@@ -1,0 +1,89 @@
+/* --> HERO SECTION <-- */
+
+.jumbotron{
+    
+    /* background: url("/~cgg8944/240/COOL-FOOD/img/home/hero.jpg"); Serenity*/
+    background: url("/~cgarafulic/COOL-FOOD/img/home/hero.jpg"); /* Local */
+    /* background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.50)), url('img/home/hero.jpg'); */
+    background-size: cover;
+    height: 100%;
+  }
+
+.jumbotron .btn-danger {
+  background-color: #C85353;
+  border-color: #C85353;
+}
+
+.jumbotron .btn-danger:hover {
+  background-color: #DA4141;
+  border-color: #DA4141;
+}
+
+/* --> CAROUSEL SECTION <-- */
+
+.custom-container {
+  width: 85vw;
+  margin: 0 auto;
+}
+
+.custom-container > h1 {
+  margin-bottom: 32px;
+}
+
+.carousel-item {
+    height: 65vh;
+}
+
+form .btn-danger {
+  background-color: #C85353;
+  border-color: #C85353;
+}
+
+form .btn-danger:hover {
+  background-color: #DA4141;
+  border-color: #DA4141;
+}
+
+/* --> CARDS SECTION <-- */
+
+.card:hover {
+  cursor: pointer;
+  box-shadow: 0 0px 16px rgba(0,0,0,0.35);
+}
+
+/* --> ICONS SECTION <-- */
+
+.icon-container {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  height: 120px; 
+  width: 120px;
+  background-color: #C85353;
+  border-color: #C85353;
+  border-radius: 8px;
+  transition: all 2s ease;
+}
+
+.icon-container:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transform: rotate(20deg);
+  transition: all 2s ease;
+}
+
+.icon-container > img {
+  max-width: 100%;
+  min-width: 100%;
+  padding: 16px;
+}
+
+/* --> FORM SECTION <-- */
+
+.bg-light{
+  background-color: #f4f4f4 !important;
+}
+
+.db-result {
+  margin-top: 20%;
+}
